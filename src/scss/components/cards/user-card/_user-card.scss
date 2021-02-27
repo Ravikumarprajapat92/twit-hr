@@ -1,0 +1,59 @@
+.card {
+  border-radius: 10px;
+  margin-top: 15px;
+  .card-head {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+
+    .user-card-img {
+      height: 60px;
+      width: 60px;
+      border-radius: 10px;
+    }
+    .card-user-name {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 5px 0 0;
+    }
+    .designation {
+      margin: 0;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .card-btn-container {
+    display: flex;
+    justify-content: center;
+
+    .card-btn {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      background-color: #efeff9;
+      color: #6263d5;
+      border-radius: 50%;
+      font-size: 15px;
+    }
+  }
+  .about-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .about-type {
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+
+    .about-discription {
+      margin-bottom: 0;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}

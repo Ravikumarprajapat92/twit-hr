@@ -1,0 +1,8 @@
+@import "./settings";
+@import "./components/index.scss";
+@import "./screens/dashboard/index.scss";
+
+.main-screen {
+  height: 100vh;
+  overflow: auto;
+}

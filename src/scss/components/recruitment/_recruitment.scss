@@ -1,0 +1,71 @@
+.recruitment-container {
+  margin-top: 50px;
+  overflow: auto;
+
+  .recruitment-heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  .recruitment-btn {
+    background-color: #6263d5;
+    color: white;
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 5px 15px;
+    font-weight: 500;
+  }
+
+  .recruitment-table {
+    margin-top: 15px;
+    width: 100;
+
+    .table-head {
+      margin-bottom: 10px;
+      .table-head-row {
+        padding: 5px 0px;
+        font-weight: 600;
+      }
+    }
+
+    .table-body {
+      .table-row {
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+
+        .table-row-img {
+          height: 35px;
+          width: 35px;
+          border-radius: 50%;
+          object-fit: cover;
+          object-position: top;
+          margin-right: 10px;
+        }
+        .table-col {
+          display: flex;
+          align-items: center;
+
+          .designaion {
+            border-radius: 10px;
+            padding: 3px 10px;
+          }
+
+          .status-bullet {
+            height: 8px;
+            width: 8px;
+            background-color: #ee583c;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 10px;
+          }
+
+          .fas {
+            color: rgba(0, 0, 0, 0.5);
+          }
+        }
+      }
+    }
+  }
+}

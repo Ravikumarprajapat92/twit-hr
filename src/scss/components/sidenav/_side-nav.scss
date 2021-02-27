@@ -1,0 +1,41 @@
+.side-nav {
+  background-color: #6263d5;
+  flex-direction: column;
+  height: 100vh;
+  padding: 40px 0px;
+
+  .nav-brand {
+    display: flex;
+    text-decoration: none;
+
+    .logo-name {
+      color: white;
+      font-weight: 800;
+      font-size: 22px;
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+  }
+  .nav-link-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+    .navbar-link {
+      padding: 8px 15px;
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      font-size: 15px;
+      text-decoration: none;
+
+      &.active {
+        background-color: white;
+        color: #6263d5;
+      }
+    }
+  }
+}
